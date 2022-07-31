@@ -1,0 +1,39 @@
+scalar Date
+scalar Upload
+type Query{
+    users: [User]!
+    user(id: ID!): User
+
+    posts: [Post]!
+    Post(id: ID!): Post
+
+    likes: [Like]!
+    like(post_id: ID!): Like
+
+    comments: [Comment]!
+    comment(post_id: ID!): Comment
+
+    post_content(post_id: ID!): PostContent
+
+    slides: [SliderImage]!
+    slide(id: ID!): SliderImage
+
+    author_info: authorInfo!
+    author_contacts: authorContacts!
+
+}
+type Mutation {
+    signIn(login: String!, password: String!): signInResponse
+    signUp(login: String!, password: String!): signUpResponse
+    check: CheckResponse
+    addPost(title: String!, text: String!, file: Upload!): addPostResponse
+    deletePost(id: ID!): deletePostResponse
+    createComment(text: String!, post_id: ID!): Comment
+    deleteComment(id: ID!): DeleteCommentResponse
+    addLike(post_id: ID!): Like
+    deleteLike(post_id: ID!): deleteLikeResponse
+    addSlide(file: Upload!): SliderImage
+    deleteSlide(id: ID): deleteSlideMessage
+    changeAuthorInfo(info: authorInfoInput): authorInfo
+    changeAuthorContacts(contacts: authorContactsInput): authorContacts
+}

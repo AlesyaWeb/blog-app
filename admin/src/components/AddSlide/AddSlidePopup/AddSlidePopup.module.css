@@ -1,0 +1,9 @@
+.addSlideButton {
+  @apply w-44 h-10 rounded mt-5 bg-blue-400 text-white font-bold hover:bg-blue-600 transition-colors;
+}
+
+.addSlideButton:disabled {
+  @apply bg-blue-200;
+}
+
+/*# sourceMappingURL=AddSlidePopup.module.css.map */

@@ -1,0 +1,9 @@
+.posts__list_title {
+  @apply font-bold text-4xl mb-5;
+}
+
+.posts__list {
+  @apply border-blue-600 border rounded even:bg-slate-100 odd:bg-white;
+}
+
+/*# sourceMappingURL=PostsList.module.css.map */

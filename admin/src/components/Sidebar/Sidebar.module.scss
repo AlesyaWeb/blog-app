@@ -1,0 +1,24 @@
+.sidebar{
+  @apply flex flex-col w-56 bg-white rounded-r-3xl overflow-hidden bg-blue-400 relative
+}
+.sidebar__wrapper {
+}
+.sidebar__list{
+  @apply flex flex-col py-4 text-center
+}
+.sidebar__list_link {
+  @apply flex items-center p-2 uppercase font-bold text-gray-50 rounded-lg hover:bg-blue-200 bg-opacity-30 transition-all
+}
+.sidebar__logout{
+  @apply absolute bottom-0 w-full bg-blue-100 flex text-center items-center h-10
+}
+.sidebar__logout_button{
+  @apply mx-auto my-auto w-full h-full hover:bg-blue-200 transition-colors font-black text-gray-600 hover:text-gray-200
+}
+a.active {
+  @apply bg-blue-200 bg-opacity-60
+}
+.content__wrapper{
+  max-width: 960px;
+  @apply w-full mx-auto p-10
+}

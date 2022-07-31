@@ -1,0 +1,23 @@
+.contacts__socnets{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.contacts__socnets-icon{
+    width: 30px;
+    height: 30px;
+}
+.contacts__socnets-link{
+    margin-right: 15px;
+}
+
+.contacts .contacts__item{
+    font-size: 21px;
+    display: flex;
+}
+.contacts__item b{
+    margin-right: 10px;
+}
+.contacts__item span{
+    text-align: left;
+}

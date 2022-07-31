@@ -1,0 +1,15 @@
+type authorInfo {
+    first_name: String!,
+    last_name: String!,
+    age: Int!,
+    description: String!
+    photo: String!
+}
+
+input authorInfoInput {
+    first_name: String,
+    last_name: String,
+    age: Int,
+    description: String,
+    photo: Upload
+}

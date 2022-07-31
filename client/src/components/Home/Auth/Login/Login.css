@@ -1,0 +1,70 @@
+.login-home{
+    padding: 15px 30px 15px 30px;
+    margin-left: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.login__title{
+    padding: 0;
+    text-align: center;
+    padding-bottom: 15px;
+    font-family: 'Goldman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    margin: 0;
+}
+
+.email__label, .password__label{
+    font-family: 'Goldman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.email__input, .password__input{
+    height: 25px;
+    border: solid black 1px;
+    font-size: 16px;
+}
+.login__form-email{
+    margin-bottom: 22px;
+}
+.login__form-password{
+    margin-bottom: 60px;
+}
+.login__form-button{
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 5px 10px 5px;
+    border: none;
+    font-family: 'Goldman';
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    background-color: #EFD09E;
+}
+.login__errors{
+    margin-bottom: 15px;
+}
+.login__errors div {
+    display: flex;
+    align-items: center;
+}
+.email__errors{
+    margin-bottom: 5px;
+}
+.password__errors-icon, .email__errors-icon{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    text-align: center;
+}
+.password__errors-icon span, .email__errors-icon span {
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 500;
+}

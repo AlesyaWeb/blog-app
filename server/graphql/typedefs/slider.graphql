@@ -1,0 +1,8 @@
+type SliderImage{
+    id: ID!,
+    img_url: String!
+}
+
+type deleteSlideMessage {
+    message: String!
+}

@@ -1,0 +1,39 @@
+.form__wrapper{
+  width: 340px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  @apply mt-auto align-middle
+}
+.login__form{
+  @apply w-full mx-auto align-middle shadow-2xl p-10 rounded-2xl
+}
+.form__title{
+  @apply font-bold text-4xl mb-10 text-center
+}
+.login__form{
+  @apply mx-auto;
+  @apply block;
+}
+.form__button{
+  @apply w-full py-2 transition-colors bg-blue-400 hover:bg-blue-600 mt-5
+}
+.auth_error{
+  align-items: center;
+  @apply my-2 flex bg-red-900 bg-opacity-10 text-red-900
+}
+.validation_error{
+  align-items: center;
+  @apply my-2 flex bg-red-900 bg-opacity-10 text-red-900
+}
+.validation_error_icon{
+  @apply px-1.5 bg-red-900 h-full bg-opacity-75 text-black mr-2
+}
+label.form__login__label, label.form__password__label{
+  @apply block my-1 text-xl
+}
+input.form__password__input, input.form__login__input{
+  @apply w-full bg-blue-100 p-1.5 py-2 text-lg block w-full outline-none transition-all focus:border-r-4 border-blue-900
+}

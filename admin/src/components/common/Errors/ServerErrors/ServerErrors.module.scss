@@ -1,0 +1,8 @@
+.errors_item {
+  color: #bf1650;
+}
+
+.errors_item::before {
+  display: inline;
+  content: "⚠ ";
+}

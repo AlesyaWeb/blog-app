@@ -1,0 +1,34 @@
+type User {
+    id: ID!
+    login: String!,
+    password: String!,
+    role: String
+}
+type signInResponse{
+    token: String
+    user: User
+    error: String
+    login: String
+}
+type CheckResponse{
+    token: String
+    error: String
+}
+type signUpResponse{
+    token: String
+    error: String
+    user: User
+    login: String
+}
+input UserCreateInput{
+    login: String!
+    password: String!
+}
+input UserLoginInput{
+    login: String!,
+    password: String!
+}
+input UserRegInput{
+    login: String!,
+    password: String!
+}

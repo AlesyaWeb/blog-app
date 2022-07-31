@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0cff56a8.css",
+    "main.js": "/static/js/main.5fbfbec4.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/wp4922106.webp": "/static/media/wp4922106.c8cf510563dd3f23e997.webp",
+    "static/media/inst.svg": "/static/media/inst.73d57c055e28b3f9f2b5fe37489a8b1b.svg",
+    "static/media/heart-icon-unliked.svg": "/static/media/heart-icon-unliked.9242ed3f1ede0c5762333cbdff66be4a.svg",
+    "static/media/heart-icon.svg": "/static/media/heart-icon.f6e722c047777693e200d477a1747554.svg",
+    "static/media/fb.svg": "/static/media/fb.29ee2ba24b6e36c10f6c22f262c25266.svg",
+    "static/media/gh.svg": "/static/media/gh.fc0ffe042a9582d2a394e1c609baa9f2.svg",
+    "index.html": "/index.html",
+    "static/media/comments-icon-active.svg": "/static/media/comments-icon-active.5770b91d42b354e6f7cc2fc72768c3e9.svg",
+    "static/media/comments-icon.svg": "/static/media/comments-icon.4ea8526a7d06947ddc436e5ce51cdace.svg",
+    "static/media/vk.svg": "/static/media/vk.7a4fbe83eaf76ca50c377d60317efc92.svg",
+    "main.0cff56a8.css.map": "/static/css/main.0cff56a8.css.map",
+    "main.5fbfbec4.js.map": "/static/js/main.5fbfbec4.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cff56a8.css",
+    "static/js/main.5fbfbec4.js"
+  ]
+}

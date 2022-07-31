@@ -1,0 +1,6 @@
+type PostContent{
+    post_id: ID!
+    title: String!
+    text: String!
+    image: String
+}

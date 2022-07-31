@@ -1,0 +1,10 @@
+type Comment {
+    id: ID!
+    post_id: ID!
+    text: String!
+    author_id: ID!
+}
+
+type DeleteCommentResponse {
+    message: String!
+}

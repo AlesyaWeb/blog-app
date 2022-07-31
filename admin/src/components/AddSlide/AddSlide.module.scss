@@ -1,0 +1,12 @@
+.addSlide_button{
+  @apply bg-blue-400 text-white font-bold flex p-1 items-center rounded-md mt-3 uppercase hover:bg-blue-600 transition-colors
+}
+.addSlide_button img{
+  @apply w-6 h-6 ml-2
+}
+.selectImage_button{
+  @apply w-36 bg-blue-400 text-white font-bold flex p-1 items-center rounded-md mt-3 uppercase hover:bg-blue-600 transition-colors
+}
+.selectImage_button img{
+  @apply w-6 h-6 ml-2
+}

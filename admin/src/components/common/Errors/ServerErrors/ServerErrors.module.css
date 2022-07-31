@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.errors_item {
+  color: #bf1650;
+}
+
+.errors_item::before {
+  display: inline;
+  content: "⚠ ";
+}
+
+/*# sourceMappingURL=ServerErrors.module.css.map */

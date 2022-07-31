@@ -1,0 +1,19 @@
+.home__slider{
+    height: 560px;
+}
+.home__content-wrapper{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1279px) {
+    .home__content-right-side{
+        display: none;
+    }
+    .home__content-wrapper{
+        display: block;
+        margin: 0 auto;
+    }
+}

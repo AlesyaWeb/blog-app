@@ -1,0 +1,19 @@
+type authorContacts {
+    address: String,
+    phone_number: String,
+    email: String,
+    vk: String,
+    inst: String,
+    github: String,
+    facebook: String
+}
+
+input authorContactsInput{
+    address: String,
+    phone_number: String,
+    email: String,
+    vk: String,
+    inst: String,
+    github: String,
+    facebook: String
+}

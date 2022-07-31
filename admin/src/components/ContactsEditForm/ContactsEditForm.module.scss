@@ -1,0 +1,30 @@
+.editContactsForm_container{
+  @apply mb-2
+}
+.editContactsForm_container input{
+  @apply border border-blue-400 rounded-md mt-0.5 hover:border-blue-600
+}
+.editContactsForm_submit{
+  @apply p-1 bg-blue-400 hover:bg-blue-600 transition-colors rounded-md text-white mt-2
+}
+
+.editContactsForm_container label{
+  @apply text-xl block
+}
+.editContactsForm_socnets{
+
+}
+.editContactsForm_socnets_title{
+  @apply text-xl font-bold
+}
+.editContactsForm_socnets div{
+  @apply flex items-center
+}
+
+.editContactsForm_socnets img{
+  @apply w-6 mr-2
+}
+
+.PhoneInput{
+  @apply bg-blue-600 max-w-full flex
+}

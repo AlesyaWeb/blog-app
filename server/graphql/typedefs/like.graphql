@@ -1,0 +1,9 @@
+type Like {
+    id: ID!
+    post_id: Int
+    author_id: Int
+}
+
+type deleteLikeResponse{
+    message: String!
+}

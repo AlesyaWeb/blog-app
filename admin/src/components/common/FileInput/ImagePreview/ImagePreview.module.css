@@ -1,0 +1,13 @@
+.imgPreview {
+  @apply w-96 h-56 rounded-xl overflow-hidden mt-3 flex items-center border border-blue-400;
+}
+
+.imgPreview_text {
+  @apply font-bold mx-auto text-xl;
+}
+
+.imgPreview_img {
+  @apply w-full h-full object-cover;
+}
+
+/*# sourceMappingURL=ImagePreview.module.css.map */

@@ -1,0 +1,10 @@
+.changeAuthorImgBtn{
+  @apply ml-3 p-2 bg-blue-400 hover:bg-blue-600 transition-colors text-white lowercase font-bold rounded-md
+}
+
+.chooseAuthorImgBtn{
+  @apply mt-2 p-2 bg-blue-400 hover:bg-blue-600 transition-colors text-white lowercase font-bold rounded-md
+}
+.chooseAuthorImgBtn:disabled{
+  @apply bg-blue-200
+}

@@ -1,0 +1,45 @@
+.infoForm{
+  @apply w-1/2
+}
+.infoForm input{
+}
+.infoForm_label{
+  @apply block
+}
+.infoForm div.infoForm__container{
+  @apply flex justify-between
+}
+.infoForm__container div{
+  @apply w-52
+}
+
+.infoForm__age{
+  @apply w-14 text-center items-center
+}
+
+.infoForm__description{
+  @apply w-full resize-none
+}
+
+.infoForm_avatar{
+  @apply w-52 h-52 object-cover rounded-md border border-blue-600
+}
+
+.infoForm_avatar_wrapper{
+  @apply flex items-end mb-4
+}
+.infoForm label{
+  @apply text-xl
+}
+.infoForm input, .infoForm__description{
+  @apply border border-blue-400 outline-none focus:border-blue-600 border-2 rounded-md
+}
+.infoForm__description{
+  @apply h-64
+}
+.infoForm__submit{
+  @apply p-1 w-16 bg-blue-400 hover:bg-blue-600 transition-colors rounded-md text-white mt-2
+}
+.infoForm__submit:disabled{
+  @apply hover:bg-blue-200 bg-blue-200
+}

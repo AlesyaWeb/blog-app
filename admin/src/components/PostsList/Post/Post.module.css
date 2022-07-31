@@ -1,0 +1,25 @@
+.post {
+  @apply flex h-12 shadow-md items-center p-1;
+}
+
+.odd {
+  @apply bg-gray-200;
+}
+
+.post__id {
+  @apply flex-none w-8 font-black;
+}
+
+.deletePost__btn {
+  @apply bg-red-700 bg-opacity-30 border rounded mr-1 p-1 w-9;
+}
+
+.deletePost__btn img {
+  @apply w-6;
+}
+
+.post__title {
+  @apply flex-initial w-full text-lg;
+}
+
+/*# sourceMappingURL=Post.module.css.map */

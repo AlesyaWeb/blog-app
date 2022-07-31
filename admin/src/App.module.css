@@ -1,0 +1,5 @@
+.main_wrapper {
+  @apply min-h-screen flex flex-row bg-gray-100;
+}
+
+/*# sourceMappingURL=App.module.css.map */
